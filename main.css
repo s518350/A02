@@ -9,6 +9,10 @@
     transform: scaleX(-1);
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .navbar {
     background-color: white;
 }
@@ -24,7 +28,7 @@
 }
 
 
-#work p {
+#skills p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.25em;
@@ -81,13 +85,46 @@ p, h2 {
     font-size: 40px;
 }
 
+.col-lg-4 ul li {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.social-icons li{
+    display: inline;
+    justify-content: end;
+}
 
 
+.column {
+    float: left;
+    width: 25%;
+  }
 
+  .row,
+.row > .column {
+    padding: 8px;
+}
 
+.Incontent h3, .Incontent p {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.Incontent h3, .Outcontent h3 {
+    font-size:30px;
+    font-weight: bold;
+}
 
+.Incontent p, .Outcontent p {
+    font-size: 18px;
+    font-weight: normal;
+}
 
-
-
-
+.Outcontent h3, .Outcontent p {
+    color: #006747;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
